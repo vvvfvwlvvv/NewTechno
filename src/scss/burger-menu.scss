@@ -1,0 +1,24 @@
+.burger-menu{
+    width: 320px;
+    background-color: #FFFFFF;
+}
+
+@media(min-width: 320px){
+    .burger-menu{
+        position: fixed;
+        margin: auto;
+    }
+}
+@media(min-width: 768px){
+    .burger-menu{
+        position: fixed;
+        left: -160px;
+        margin: auto;
+    }
+}
+@media(min-width: 1120px){
+    .burger-menu{
+        position: static;
+        display: block;
+    }
+}
